@@ -25,7 +25,7 @@ function jogar (escolhaJogador){
                 resultado = (escolhaComputador === "pedra") ? "VOCÊ GANHOU!" : "VOCÊ PERDEU!";
                 break;
                 case "tesoura":
-                resultado = (escolhaComputador === "tesoura") ? "VOCÊ GANHOU!" : "VOCÊ PERDEU!";
+                resultado = (escolhaComputador === "papel") ? "VOCÊ GANHOU!" : "VOCÊ PERDEU!";
                 break;
         }
     }
